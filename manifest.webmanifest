@@ -1,0 +1,17 @@
+{
+  "id": "/",
+  "name": "Mon budget tout doux",
+  "short_name": "Budget tout doux",
+  "lang": "fr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0e1020",
+  "theme_color": "#1a1d34",
+  "description": "Suivi de budget mensuel, synchronisé entre ton PC et ton téléphone.",
+  "icons": [
+    { "src": "/icons/budget-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/budget-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/budget.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
