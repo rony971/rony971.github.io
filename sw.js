@@ -1,7 +1,7 @@
 const CACHE_PREFIX = 'mbtd-app-code-v1-';
-const CACHE_NAME = CACHE_PREFIX + '273bd139c972e37e2e0f';
+const CACHE_NAME = CACHE_PREFIX + 'b78c909ebdacfc53bde1';
 const PRECACHE = ["/","/assets/index-CrjOoB21.js","/assets/index-DiMOi0lb.css","/index.html","/manifest.webmanifest","/icons/budget.svg","/icons/budget-192.png","/icons/budget-512.png"];
-const INTEGRITY = {"/assets/index-CrjOoB21.js":"sha256-KLNgZoYUFaYPekqmShI/3yXYYtHlzXkej1ZyekhdMi4=","/assets/index-DiMOi0lb.css":"sha256-2qHdx0HlpTAxsQa8jl2uzWilhFfKuorhWagiipYCrhc=","/index.html":"sha256-1Uf/HESLhAgYKBYFVVoF11/qqzpRcBBLbpppd/bEPro=","/manifest.webmanifest":"sha256-bdgpFJYX6xmvOnfY8G/k6aEmyodaO3/wQY9UtmcW0dk=","/icons/budget.svg":"sha256-CLvc0SL+U6gOlWODVUvy4JJRgjQsJXk5W4b8+HbAePM=","/icons/budget-192.png":"sha256-WHK0ZlfMcbYgIJBC2o6A0U8Yl1PjVtQq7NtgSSYtnRo=","/icons/budget-512.png":"sha256-xZJ+pQfoUQcTPLPFiOue78opPZplt6wicET8+C4jR7g=","/":"sha256-1Uf/HESLhAgYKBYFVVoF11/qqzpRcBBLbpppd/bEPro="};
+const INTEGRITY = {"/assets/index-CrjOoB21.js":"sha256-KLNgZoYUFaYPekqmShI/3yXYYtHlzXkej1ZyekhdMi4=","/assets/index-DiMOi0lb.css":"sha256-2qHdx0HlpTAxsQa8jl2uzWilhFfKuorhWagiipYCrhc=","/index.html":"sha256-j0r+jO1JndznVbA1K03crmg4sQgRBcAI0OGlMILvn34=","/manifest.webmanifest":"sha256-bdgpFJYX6xmvOnfY8G/k6aEmyodaO3/wQY9UtmcW0dk=","/icons/budget.svg":"sha256-CLvc0SL+U6gOlWODVUvy4JJRgjQsJXk5W4b8+HbAePM=","/icons/budget-192.png":"sha256-WHK0ZlfMcbYgIJBC2o6A0U8Yl1PjVtQq7NtgSSYtnRo=","/icons/budget-512.png":"sha256-xZJ+pQfoUQcTPLPFiOue78opPZplt6wicET8+C4jR7g=","/":"sha256-j0r+jO1JndznVbA1K03crmg4sQgRBcAI0OGlMILvn34="};
 // CACHE_PREFIX, CACHE_NAME, PRECACHE et INTEGRITY sont injectés par le build Vite.
 // Aucun stockage budgétaire, JSON utilisateur, API Supabase, export ou réponse opaque.
 const allowed = new Set(PRECACHE.map(path => new URL(path, self.location.origin).href));
