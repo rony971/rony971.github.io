@@ -1,7 +1,7 @@
 const CACHE_PREFIX = 'mbtd-app-code-v1-';
-const CACHE_NAME = CACHE_PREFIX + '4564ba6367b75c979453';
-const PRECACHE = ["/","/assets/index-2gCB-fND.css","/assets/index-DYKjiSLr.js","/index.html","/manifest.webmanifest","/icons/budget.svg","/icons/budget-192.png","/icons/budget-512.png"];
-const INTEGRITY = {"/assets/index-2gCB-fND.css":"sha256-MBoG6h/efWIMuouM2nL6cBeCQM1JR8HxfSnNOkv9ULc=","/assets/index-DYKjiSLr.js":"sha256-fSo8dCuH2/Fw3JJmXXzLTHYxoflN4tv3dw86NMgN5JQ=","/index.html":"sha256-zAazAVYLLxjpGQYUHR7/NW7P3YPmXGvd5LuqklQMhmw=","/manifest.webmanifest":"sha256-bdgpFJYX6xmvOnfY8G/k6aEmyodaO3/wQY9UtmcW0dk=","/icons/budget.svg":"sha256-CLvc0SL+U6gOlWODVUvy4JJRgjQsJXk5W4b8+HbAePM=","/icons/budget-192.png":"sha256-WHK0ZlfMcbYgIJBC2o6A0U8Yl1PjVtQq7NtgSSYtnRo=","/icons/budget-512.png":"sha256-xZJ+pQfoUQcTPLPFiOue78opPZplt6wicET8+C4jR7g=","/":"sha256-zAazAVYLLxjpGQYUHR7/NW7P3YPmXGvd5LuqklQMhmw="};
+const CACHE_NAME = CACHE_PREFIX + '854050c72bfaf51a80ec';
+const PRECACHE = ["/","/assets/index-CONkrob9.css","/assets/index-qAMTSdSV.js","/index.html","/manifest.webmanifest","/icons/budget.svg","/icons/budget-192.png","/icons/budget-512.png"];
+const INTEGRITY = {"/assets/index-CONkrob9.css":"sha256-4F/F8xhiiKGq2qFLjDOXSThk+jCyzSFHaudENLovBvI=","/assets/index-qAMTSdSV.js":"sha256-I+KoJgf6yC39NQiYUGeZ/B8xY9DSuAzNLEg2+CIP+fw=","/index.html":"sha256-Ff2HwzECxrDJwJ2uvo47WCWmgbNoOAIz8XbLnSd7Cx8=","/manifest.webmanifest":"sha256-bdgpFJYX6xmvOnfY8G/k6aEmyodaO3/wQY9UtmcW0dk=","/icons/budget.svg":"sha256-CLvc0SL+U6gOlWODVUvy4JJRgjQsJXk5W4b8+HbAePM=","/icons/budget-192.png":"sha256-WHK0ZlfMcbYgIJBC2o6A0U8Yl1PjVtQq7NtgSSYtnRo=","/icons/budget-512.png":"sha256-xZJ+pQfoUQcTPLPFiOue78opPZplt6wicET8+C4jR7g=","/":"sha256-Ff2HwzECxrDJwJ2uvo47WCWmgbNoOAIz8XbLnSd7Cx8="};
 // CACHE_PREFIX, CACHE_NAME, PRECACHE et INTEGRITY sont injectés par le build Vite.
 // Aucun stockage budgétaire, JSON utilisateur, API Supabase, export ou réponse opaque.
 const allowed = new Set(PRECACHE.map(path => new URL(path, self.location.origin).href));
